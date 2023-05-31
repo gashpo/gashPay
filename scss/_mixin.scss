@@ -1,0 +1,25 @@
+// Mixins
+
+// Font Mixins
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;400;500;700&family=Noto+Serif+TC:wght@200;400;500;700&display=swap');
+@mixin sansFont($weight: 400) {
+  font-family: 'Arial', '微軟正黑體', 'Noto Sans TC', sans-serif;
+  font-weight: $weight;
+}
+
+@mixin serifFont($weight: 400) {
+  font-family: 'Noto Serif TC', serif;
+  font-weight: $weight;
+}
+
+@font-face {
+	font-family: 'icon';
+	src:url('../fonts/icons/icon.eot?g9jil2');
+	src:url('../fonts/icons/icon.eot?g9jil2#iefix') format('embedded-opentype'),
+		url('../fonts/icons/icon.ttf?g9jil2') format('truetype'),
+		url('../fonts/icons/icon.woff?g9jil2') format('woff'),
+		url('../fonts/icons/icon.svg?g9jil2#icon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+	font-display: block;
+}
