@@ -1,0 +1,110 @@
+.popUp {
+    display: none;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color:  rgba(0, 0, 0, 0.8);
+    z-index: 20;
+
+    .popUp--container {
+        max-width: 70svw;
+        min-width: 480px;
+        max-height: 80svh;
+        padding: 60px;
+        border-radius: 12px;
+        text-align: center;
+        background-color: #fff;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        
+        .popUp--close {
+            width: 44px;
+            height: 44px;
+            margin: 0;
+            padding: 0;
+            border-radius: 44px;
+            position: absolute;
+            top: 28px;
+            right: 28px;
+            background-image: url(../img/icon/ic-close.svg);
+            background-repeat: no-repeat;
+            background-size: 100% auto;
+            cursor: pointer;
+            transition: all .2s linear;
+
+            @media (hover: hover){
+                &:hover {
+                    opacity: .6;
+                }                
+            }
+        }
+
+        img{
+            width: auto;
+            margin-bottom: 24px;
+        }
+
+        h3 {
+            font-size: calc(2.4 * var(--font-size));
+            text-align: center;
+            color: $dark;
+        }
+        p{
+            font-size: calc(2 * var(--font-size));
+            text-align: center;
+            color: $dark;
+        }
+
+
+        @media screen and (max-width: 516px) {
+            padding: 28px 16px;
+            max-width: 70svw;
+            min-width: 480px;
+            max-height: 80svh;
+    
+            .popUp--close {
+                top: 20px;
+                right: 20px;
+                height: 36px;
+                width: 36px;
+                padding: 8px;
+
+                &::before{
+                    padding: 2px;
+                }
+
+                .icon-times{
+                    position: relative;
+                    top: -5px;
+
+                    &:before {
+                        font-size: 16px;
+                    }
+                }
+            }
+        }
+    }
+
+    &.active {
+        display: block;
+    }
+
+    @media screen and (max-width: 768px) {
+        .popUp--container {
+            .popUp--content {
+                padding-right: 12px;
+            }
+        }
+    }
+
+    @media screen and (max-width: 516px) {
+        .popUp--container {
+            max-width: calc(100svw - 32px);
+            min-width: calc(100svw - 32px);
+        }
+    }
+}
