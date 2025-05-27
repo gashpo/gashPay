@@ -30,7 +30,7 @@
 		margin-bottom: 70px;
 	}
 }//max-width: 768px
-@media screen and (max-width: 516px) {
+@media screen and (max-width: 428px) {
 	.title-h2{
 		margin-bottom: 40px;
 		p.tab{
@@ -42,7 +42,7 @@
 			font-size: calc(3 * var(--font-size));
 		}
 	}
-}//max-width: 516px
+}//max-width: 428px
 
 
 
@@ -54,7 +54,7 @@ i.icon{
 	&::before{
         content: " ";
 		display: block;
-        font-family: icomoon;
+        font-family: icon;
         font-style: normal;
 		font-weight: normal;
         // font-weight: 400;
@@ -71,25 +71,22 @@ i.icon{
 
 
 //按鈕樣式
-a, button{
+a{
 	display: inline-block;
 	line-height: 100%;
 	text-decoration: none;
     transition: all .5s;
-	@media (hover: hover){
-		&:hover{
-			transition: all .5s;
-		}
-	}
+    &:hover{
+        transition: all .5s;
+    }
 	&.cta-btn{
 		color: #fff;
 		background-color: $primary;
 		border-radius: 2px;
-		@media (hover: hover){
-			&:hover{
-				background-color: #006BBB;
-			}
+		&:hover{
+			background-color: #006BBB;
 		}
 	}
 }
+
 
