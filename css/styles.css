@@ -101,7 +101,7 @@ button {
     margin-bottom: 70px;
   }
 }
-@media screen and (max-width: 428px) {
+@media screen and (max-width: 512px) {
   .title-h2 {
     margin-bottom: 40px;
   }
@@ -261,7 +261,7 @@ a.cta-btn:hover {
     height: auto;
   }
 }
-@media screen and (max-width: 428px) {
+@media screen and (max-width: 512px) {
   .kv-block {
     padding-top: 20px;
   }
@@ -354,7 +354,7 @@ a.cta-btn:hover {
     width: 90%;
   }
 }
-@media screen and (max-width: 428px) {
+@media screen and (max-width: 512px) {
   .about-block h2 {
     margin-bottom: 40px;
     font-size: calc(2.6 * var(--font-size));
@@ -448,7 +448,7 @@ a.cta-btn:hover {
     width: calc(50% - 12px);
   }
 }
-@media screen and (max-width: 428px) {
+@media screen and (max-width: 512px) {
   .service-block .item ul li {
     width: 100%;
     min-height: auto;
@@ -554,7 +554,7 @@ a.cta-btn:hover {
     width: 100%;
   }
 }
-@media screen and (max-width: 428px) {
+@media screen and (max-width: 512px) {
   .risk-block .risk-img {
     width: 100%;
     margin-bottom: 40px;
@@ -682,7 +682,7 @@ a.cta-btn:hover {
     font-size: calc(4.4 * var(--font-size));
   }
 }
-@media screen and (max-width: 428px) {
+@media screen and (max-width: 512px) {
   .starter-block::after {
     height: 80px;
     margin-top: -80px;
@@ -766,7 +766,7 @@ main .anchor-point {
     transform: translateY(-50px);
   }
 }
-@media screen and (max-width: 428px) {
+@media screen and (max-width: 512px) {
   main section {
     padding: 50px 0;
   }
@@ -975,7 +975,7 @@ footer p.copyright {
     width: 100%;
   }
 }
-@media screen and (max-width: 428px) {
+@media screen and (max-width: 512px) {
   footer .sitemap ul {
     flex-wrap: wrap;
     flex-direction: row;
@@ -1084,7 +1084,7 @@ article section .img img {
     width: calc(75% - 40px);
   }
 }
-@media screen and (max-width: 428px) {
+@media screen and (max-width: 512px) {
   .center.terms {
     width: 100%;
     margin-top: 90px;

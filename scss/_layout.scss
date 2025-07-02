@@ -41,7 +41,7 @@ main {
     }
   }
 } //max-width: 768px
-@media screen and (max-width: 428px) {
+@media screen and (max-width: 512px) {
   main {
     section {
       padding: 50px 0;
@@ -287,7 +287,7 @@ footer {
     }
   }
 } //max-width: 1024px
-@media screen and (max-width: 428px) {
+@media screen and (max-width: 512px) {
   footer {
     .sitemap {
       ul {
@@ -311,7 +311,7 @@ footer {
       font-size: calc(1.2 * var(--font-size));
     }
   }
-} //max-width: 428px
+} //max-width: 512px
 
 /* 條款 */
 .center.terms {
@@ -400,7 +400,7 @@ article {
     width: calc(100% - 25% - 40px);
   }
 } //max-width: 768px
-@media screen and (max-width: 428px) {
+@media screen and (max-width: 512px) {
   .center.terms {
     width: 100%;
     margin-top: 90px;
@@ -475,4 +475,4 @@ article {
       }
     }
   }
-} //428px
+} //512px

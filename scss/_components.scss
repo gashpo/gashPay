@@ -128,7 +128,7 @@
     }
   }
 } //max-width: 768px
-@media screen and (max-width: 428px) {
+@media screen and (max-width: 512px) {
   .kv-block {
     padding-top: 20px;
     .kv-desc {
@@ -157,7 +157,7 @@
       width: 100%;
     }
   }
-} //max-width: 428px
+} //max-width: 512px
 
 /* 關於GASHPay */
 .about-block {
@@ -245,7 +245,7 @@
     }
   }
 } //max-width: 768px
-@media screen and (max-width: 428px) {
+@media screen and (max-width: 512px) {
   .about-block {
     h2 {
       margin-bottom: 40px;
@@ -279,7 +279,7 @@
       margin: 0 auto;
     }
   }
-} //max-width: 428px
+} //max-width: 512px
 
 /* 主要服務 */
 .service-block {
@@ -369,7 +369,7 @@
     }
   }
 } //max-width: 768px
-@media screen and (max-width: 428px) {
+@media screen and (max-width: 512px) {
   .service-block {
     .item {
       ul {
@@ -395,7 +395,7 @@
       }
     }
   }
-} //max-width: 428px
+} //max-width: 512px
 
 .risk-block {
   .center {
@@ -490,7 +490,7 @@
     }
   }
 } //max-width: 768px
-@media screen and (max-width: 428px) {
+@media screen and (max-width: 512px) {
   .risk-block {
     .risk-img {
       width: 100%;
@@ -532,7 +532,7 @@
       }
     }
   }
-} //max-width: 428px
+} //max-width: 512px
 
 /* 使用步驟 */
 .starter-block {
@@ -634,7 +634,7 @@
     }
   }
 } //max-width: 768px
-@media screen and (max-width: 428px) {
+@media screen and (max-width: 512px) {
   .starter-block {
     &::after {
       height: 80px;
@@ -676,4 +676,4 @@
       }
     }
   }
-} //max-width: 428px
+} //max-width: 512px
