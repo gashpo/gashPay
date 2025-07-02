@@ -803,6 +803,10 @@ header nav ul a {
 header nav ul a:hover {
   color: #A9BDCB;
 }
+header nav ul a.cta-btn {
+  padding: 16px 40px;
+  border-radius: 2px;
+}
 header .account a {
   margin: 0 10px;
   font-size: calc(1.6 * var(--font-size));

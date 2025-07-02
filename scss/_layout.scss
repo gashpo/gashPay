@@ -81,6 +81,10 @@ header {
         &:hover {
           color: $secondary;
         }
+        &.cta-btn {
+          padding: 16px 40px;
+          border-radius: 2px;
+        }
       }
     }
   }
